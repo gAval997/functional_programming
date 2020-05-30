@@ -14,10 +14,6 @@ function getHeladosVerdes(heladosList) {
 /* END HELADOS FUNCTIONS */
 
 /* STARTS MOVIES FUNCTIONS */
-function formatDate(date) {
-	return `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`;
-}
-
 function getCleanMovieData(movieDataList) {
 	return movieDataList.map((movie) => {
 		return {
